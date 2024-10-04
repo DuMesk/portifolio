@@ -1,0 +1,54 @@
+@media screen and (max-width: 700px) {
+
+    header .menu-desktop {
+        display: none;        
+    }
+
+    .logo
+
+    header .btn-contato{
+        padding: 10px 40px; /* Define o padding do botão */
+        font-size: 18px; /* Tamanho da fonte no botão */
+        font-weight: 400; /* Peso da fonte no botão */
+        background: transparent; /* Fundo transparente para o botão */
+        border-radius: 20px; /* Arredonda as bordas do botão */
+        cursor: pointer; /* Cursor de ponteiro ao passar o mouse sobre o botão */
+    }
+
+    .txt-principal h1 {
+        font-size: 50px; /* Tamanho da fonte do título */
+        font-weight: 400; /* Peso da fonte (seminegrito) do título */
+    }
+
+    .txt-principal p {
+        font-size: 22px; /* Tamanho da fonte do parágrafo */
+        text-align: justify;
+    }
+
+    main .flex,
+    main .conheflex {
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        /* Utiliza flexbox para disposição dos elementos */
+        flex-wrap: nowrap;
+        /* Permite que os itens quebrem linha */
+        justify-content: center;
+        /* Centraliza os itens horizontalmente */
+        align-items: center;/* Estica os itens para a altura do contêiner */
+        gap: 40px;
+        /* Espaçamento entre os itens */
+    }
+    .cards {
+        width: 450px;
+        padding: 50px;
+    }
+    @keyframes flutuar {
+        0% {
+            top: -80px; /* Posição inicial da animação (topo) */
+        }
+        100% {
+            top: 40px; /* Posição final da animação (desloca para baixo 100px) */
+        }
+    }
+}
